@@ -32,3 +32,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -  <img src="https://image.flaticon.com/icons/svg/2772/2772128.svg" alt="sql" width="15" height="15"/> [Sql][sql]
 - <img src="https://seeklogo.com/images/E/expo-logo-01BB2BCFC3-seeklogo.com.png" alt="sql" width="15" height="15" /> [Expo][expo]
 
+### :seedling: Próximas Features
+
+- [ ] Página de login e autenticação do usuário
+- [ ] Divisão das instituições beneficentes em categorias 
+- [ ] Adicionar opção de digitar o endereço completo ao invés de clicar no mapa
+- [ ] 
