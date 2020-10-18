@@ -17,6 +17,7 @@ function Landing() {
                 <div className="location">
                     <strong>Porto Alegre</strong>
                     <span>Rio Grande do Sul</span>
+                    <img className="logo-marker "src={logoMarker} alt="logo-marker" />
                 </div>                
                 <Link to="/app" className="page-landing--CTA">
                     <button>Comece a ajudar!</button>

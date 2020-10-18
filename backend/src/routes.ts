@@ -15,13 +15,3 @@ routes.post('/services', upload.array('images'), ServicesController.create);
 
 
 export default routes;
-/*
-
-	"name": "2 AlÔ Galisteu",
-	"latitude": -27.21044339,
-	"longitude": -49.629111,
-	"about": "sobre mimiim",
-	"instructions": "lave as mãos",
-	"opening_hours": "8h até 21h",
-	"open_on_weekends": true
-*/

@@ -129,7 +129,20 @@ export default function ServiceDetails() {
 
         <RectButton style={styles.contactButton} onPress={() => {}}>
           <FontAwesome name="whatsapp" size={24} color="#FFF" />
-          <Text style={styles.contactButtonText}>Entrar em contato</Text>
+          <Text style={styles.contactButtonText} 
+          onPress={() =>
+          Linking.canOpenURL("whatsapp://send?text=Oi, gostaria de marcar uma visita!").then(supported => {
+                  if (supported) {
+                    return Linking.openURL(
+                      "whatsapp://send?phone=5551999999999&text=Oi, gostaria de marcar uma visita!"
+                    );
+                  } else {
+                    return Linking.openURL(
+                      "https://api.whatsapp.com/send?phone=5531999999999&text=Oi"
+                    );
+                  }
+                })
+                }>Entrar em contato</Text>
         </RectButton>
       </View>
     </ScrollView>
