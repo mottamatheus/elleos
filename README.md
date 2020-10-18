@@ -11,4 +11,12 @@ A nova identidade visual foi criação própria. Expandi a ideia da happy pra ab
 
 <h2 align="center">elleos - aplicativo mobile</h2>
 
-![elleos app gif](https://github.com/mottamatheus/elleos/blob/master/resources/images/app.gif)
+<p align="center">
+  <img src="https://github.com/mottamatheus/elleos/blob/master/resources/images/app.gif">
+</p>
+
+<h2 align="center">elleos - website</h2>
+
+<p align="center">
+  <img src="https://github.com/mottamatheus/elleos/blob/master/resources/images/web.gif">
+</p>
