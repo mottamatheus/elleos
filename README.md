@@ -10,4 +10,5 @@ Esse projeto foi baseado na <a href="https://github.com/rocketseat-education/nlw
 A nova identidade visual foi criação própria. Expandi a ideia da happy pra abrangir outras instituições beneficentes além de orfanatos.</p>
 
 <h2 align="center">elleos - aplicativo mobile</h2>
-![Alt Text](https://s8.gifyu.com/images/gif_elleos_app.gif)
+
+![elleos app gif](https://github.com/mottamatheus/elleos/blob/master/resources/images/app.gif)
