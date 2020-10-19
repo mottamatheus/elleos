@@ -13,11 +13,12 @@
 Para desenvolvimento do front-end do site e do app foram utilizados <strong>TypeScript, ReactJS e ReactNative</strong>. O back-end foi desenvolvido com NodeJS.
 Esse projeto foi baseado na <a href="https://github.com/rocketseat-education/nlw-03-omnistack">plataforma Happy</a> e desenvolvido durante a terceira edição da Next Level Week, feita pela Rocketseat entre 12 e 16 de Outubro de 2020. </p>
 
-<p>
+<p align="center">
 A identidade visual foi criação própria. O nome elleos vem de Eleos, que na mitologia grega personificava a piedade, a caridade e a misericórdia. Expandi a ideia da happy pra abrangir outras instituições beneficentes além de orfanatos.</p>
-<p align="center">	
+
+
 > Status do Projeto: Em desenvolvimento :warning:
-</p>
+
 ## :calling: Aplicativo mobile
 
 <p align="center">
