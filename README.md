@@ -15,7 +15,9 @@ Esse projeto foi baseado na <a href="https://github.com/rocketseat-education/nlw
 
 <p>
 A identidade visual foi criação própria. O nome elleos vem de Eleos, que na mitologia grega personificava a piedade, a caridade e a misericórdia. Expandi a ideia da happy pra abrangir outras instituições beneficentes além de orfanatos.</p>
-
+<p align="center">	
+> Status do Projeto: Em desenvolvimento :warning:
+</p>
 ## :calling: Aplicativo mobile
 
 <p align="center">
