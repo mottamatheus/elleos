@@ -22,9 +22,9 @@ app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')))
 // Delete - Deletar info
 
 // Parâmetros - 3 TIPOS
-// Query Params: http://localhost:3333/users?search=diego --> usa '?' busca, filtro, paginação etc parâmetros opcionais
-// Route Params: http://localhost:3333/users/1 (identificar um recurso - por "ID")
-// Body: http://localhost:3333/users --> informações complexas, formulários, dados etc
+// Query Params: http://192.168.0.3:3333/users?search=diego --> usa '?' busca, filtro, paginação etc parâmetros opcionais
+// Route Params: http://192.168.0.3:3333/users/1 (identificar um recurso - por "ID")
+// Body: http://192.168.0.3:3333/users --> informações complexas, formulários, dados etc
 
 // 3 formas de lidar com banco de dados: Driver Nativo, Query builder e ORM
 // Object Relational Mapping: maior abstração, uma classe JS que significa uma tabela no banco de dados
