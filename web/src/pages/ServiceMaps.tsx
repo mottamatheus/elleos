@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import mapMarkerImg from "../images/logo-white.svg";
 import { Link } from "react-router-dom";
-import { FiPlus, FiArrowRight} from "react-icons/fi";
+import { AiOutlineRight } from "react-icons/ai";
+import { FiPlus, FiArrowRight } from "react-icons/fi";
 import "../styles/pages/services-map.css";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
@@ -62,7 +63,7 @@ function ServiceMaps() {
                         <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup" >
                             {service.name}
                             <Link to={`/services/${service.id}`}>
-                                <FiArrowRight size={20} color="#fff"></FiArrowRight>
+                                <AiOutlineRight size={30} color=" #1b9cfc"></AiOutlineRight>
                             </Link>
                             </Popup>
                         </Marker>
@@ -72,7 +73,7 @@ function ServiceMaps() {
             </Map>
 
             <Link to="/services/create" className="create-service">
-                <FiPlus size={32} color="#FFF" />
+                <FiPlus size={32} color="#FFF"  />
             </Link>
         </div>
     );

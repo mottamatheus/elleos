@@ -54,7 +54,7 @@ export default function ServicesMap() {
         icon={mapMarker}
         calloutAnchor={{
           x: 2.6,
-          y: 1
+          y: 0.8
         }}
         coordinate={{
           latitude: service.latitude,
@@ -92,18 +92,20 @@ const styles = StyleSheet.create({
     },
   
     calloutContainer: {
+      flex: 1,
       width: 160,
-      height: 46,
       paddingHorizontal: 16,
-      backgroundColor: 'rgba(255, 255, 255, 0.8)',
+      backgroundColor: 'rgba(255, 255, 255, 0.95)',
       borderRadius: 16,
       justifyContent: 'center',
     },
   
     calloutText: {
+      paddingVertical: 15,
       color: '#1b9cfc',
       fontSize: 15,
-      fontFamily: 'Nunito_700Bold'
+      fontFamily: 'Nunito_700Bold',
+      textAlign: 'center'
     },
   
     footer: {

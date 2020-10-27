@@ -10,9 +10,8 @@ function Landing() {
             <div className="content-wrapper">
                 <img className="logo "src={logoImg} alt="logo" />
                 <main>
-                    <h1>Faça a diferença em</h1>
-                    <h2>Porto Alegre</h2>
-                    <p>Escolha uma <strong>instituição beneficente</strong> em sua cidade e veja como você pode dar uma mão!</p>
+                    <h1>Estenda a mão para quem precisa</h1>
+                    <p>Escolha uma instituição em sua cidade e veja como você pode dar uma mão!</p>
                 </main>
                 <div className="location">
                     <strong>Porto Alegre</strong>

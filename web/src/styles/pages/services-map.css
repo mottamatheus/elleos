@@ -48,28 +48,29 @@
 }
 
 .page-map .map-popup .leaflet-popup-content {
-    color: #1b9cfc;
-    font-size: 20px;
+    color: #646464;
+    padding: 15px;
+    font-size: 22px;
     font-weight: bold;
-    margin: 8px 12px;
+    margin: 8px;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .page-map .map-popup .leaflet-popup-content a {
     width: 40px;
-    height: 40px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1b9cfc;
+    background: rgba(255, 255, 255, 0.98);
     border-radius: 12px;
-    box-shadow: 12.28px 27.65px 42.48px rgba(23, 126, 166, 0.16);
 }
 
 .page-map .map-popup .leaflet-popup-content-wrapper {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.98);
     border-radius: 10px;
 }
 
